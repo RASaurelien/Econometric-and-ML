@@ -1,0 +1,8 @@
+export(att_gt, aggte, twfe_did, plot_event_study)
+export(rd_robust, rd_bandwidth, rd_placebo, rd_manipulation, plot_rd)
+export(synth_prep, synth, synth_ecart, synth_placebo, plot_synth)
+S3method(print, att_gt)
+S3method(print, aggte)
+S3method(print, rd_robust)
+S3method(print, synth_fit)
+importFrom(quadprog, solve.QP)

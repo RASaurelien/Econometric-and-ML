@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+series/libkalman.so
+series/libkalman.dll

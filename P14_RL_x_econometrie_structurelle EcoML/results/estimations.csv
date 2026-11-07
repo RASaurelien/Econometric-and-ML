@@ -1,0 +1,4 @@
+,theta1 (vrai 2.5),se theta1,RC (vrai 10.0),se RC,temps (s)
+NFXP,2.649,0.174,10.332,0.503,0.249
+CCP Hotz-Miller (inversion),2.646,0.157,9.489,0.388,0.031
+CCP NPL (3 iterations),2.65,0.177,10.335,0.509,0.013

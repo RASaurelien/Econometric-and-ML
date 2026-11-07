@@ -1,0 +1,7 @@
+,couverture,couv. regime calme,couv. regime agite,largeur moyenne,score d'intervalle,part infinie,pire ecart (fenetre 200)
+Gaussien,0.7678,0.9384,0.6332,3.8164,11.1936,0.0,0.404
+Conforme fixe,0.7507,0.9253,0.6127,3.6236,11.5031,0.0,0.428
+Conforme glissant,0.877,0.9784,0.7991,5.8632,9.1027,0.0,0.16
+ACI,0.8989,0.9711,0.844,6.3958,8.9687,0.0,0.092
+CQR fixe,0.7887,0.9163,0.6875,3.8085,9.4784,0.0,0.298
+CQR + ACI,0.8991,0.9617,0.8517,5.8225,8.2225,0.0,0.089

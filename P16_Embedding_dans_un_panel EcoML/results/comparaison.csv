@@ -1,0 +1,25 @@
+modele,scenario,biais beta,RMSE beta,RMSE test
+MCO empile,additif,0.536,0.538,1.271
+Effets fixes (TWFE),additif,0.009,0.018,1.049
+"Effets fixes interactifs (Bai, r=2)",additif,0.019,0.034,2.592
+Effets aleatoires (ridge),additif,0.055,0.075,1.042
+Effets aleatoires + Mundlak,additif,0.01,0.018,1.021
+Embeddings additifs,additif,0.064,0.071,1.056
+Embeddings additifs + Mundlak,additif,0.007,0.012,1.026
+Embeddings interactifs (d=4) + Mundlak,additif,-0.171,0.178,1.111
+MCO empile,interactif,0.847,0.85,1.504
+Effets fixes (TWFE),interactif,0.664,0.682,1.522
+"Effets fixes interactifs (Bai, r=2)",interactif,0.0,0.015,1.506
+Effets aleatoires (ridge),interactif,0.768,0.774,1.464
+Effets aleatoires + Mundlak,interactif,0.665,0.682,1.452
+Embeddings additifs,interactif,0.655,0.665,1.489
+Embeddings additifs + Mundlak,interactif,0.636,0.65,1.485
+Embeddings interactifs (d=4) + Mundlak,interactif,0.075,0.08,1.319
+MCO empile,peu d'obs. par unite,0.52,0.52,1.331
+Effets fixes (TWFE),peu d'obs. par unite,-0.024,0.041,1.278
+"Effets fixes interactifs (Bai, r=2)",peu d'obs. par unite,0.041,0.047,2.375
+Effets aleatoires (ridge),peu d'obs. par unite,0.261,0.27,1.207
+Effets aleatoires + Mundlak,peu d'obs. par unite,-0.016,0.035,1.186
+Embeddings additifs,peu d'obs. par unite,0.131,0.14,1.208
+Embeddings additifs + Mundlak,peu d'obs. par unite,-0.074,0.104,1.214
+Embeddings interactifs (d=4) + Mundlak,peu d'obs. par unite,-0.236,0.237,1.333

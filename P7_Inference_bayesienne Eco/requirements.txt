@@ -1,0 +1,5 @@
+numpy
+scipy
+# seulement pour les tests et l'exemple
+statsmodels
+pytest

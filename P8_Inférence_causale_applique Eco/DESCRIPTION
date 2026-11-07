@@ -1,0 +1,10 @@
+Package: minicausal
+Type: Package
+Title: Petit package d'inference causale appliquee
+Version: 0.1.0
+Description: Differences de differences avec adoption echelonnee, discontinuite de
+    regression et controle synthetique, testes sur des jeux de donnees publics.
+License: GPL-3
+Encoding: UTF-8
+Imports: quadprog
+Suggests: testthat

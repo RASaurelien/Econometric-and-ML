@@ -1,0 +1,7 @@
+modele,PEHE,corr rangs,AUUC
+X-learner,0.29,0.941,345.088
+DR-learner,0.406,0.912,344.477
+Foret causale,0.42,0.9,330.22
+T-learner,0.439,0.874,316.237
+S-learner,0.478,0.866,319.525
+TARNet,0.584,0.807,306.553

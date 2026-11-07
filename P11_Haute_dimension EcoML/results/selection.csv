@@ -1,0 +1,13 @@
+rho,methode,precision,recall,erreur l2 beta,RMSE prevision
+0.0,elastic_net,0.267,1.0,0.32,0.328
+0.0,lasso_cv,0.34,1.0,0.279,0.287
+0.0,lasso_plugin,1.0,1.0,1.367,1.369
+0.0,ridge,0.1,1.0,0.573,0.578
+0.5,elastic_net,0.202,1.0,0.554,0.403
+0.5,lasso_cv,0.274,1.0,0.53,0.374
+0.5,lasso_plugin,0.989,0.65,3.9,2.313
+0.5,ridge,0.1,1.0,0.728,0.573
+0.9,elastic_net,0.18,1.0,1.254,0.412
+0.9,lasso_cv,0.198,1.0,1.145,0.385
+0.9,lasso_plugin,0.917,0.19,4.377,1.132
+0.9,ridge,0.1,1.0,1.736,0.556

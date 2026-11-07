@@ -1,0 +1,13 @@
+rho,methode,biais,RMSE,couverture
+0.0,OLS naif,0.178,0.206,0.7
+0.0,post-lasso naif (CV),-0.063,0.092,0.7
+0.0,post-double-selection (plug-in),-0.012,0.058,0.9
+0.0,post-double-selection (CV),-0.036,0.074,0.8
+0.5,OLS naif,0.105,0.114,0.4
+0.5,post-lasso naif (CV),-0.064,0.087,0.7
+0.5,post-double-selection (plug-in),-0.022,0.065,0.9
+0.5,post-double-selection (CV),-0.056,0.082,0.8
+0.9,OLS naif,0.091,0.092,0.0
+0.9,post-lasso naif (CV),-0.113,0.157,0.6
+0.9,post-double-selection (plug-in),0.029,0.047,1.0
+0.9,post-double-selection (CV),-0.014,0.042,1.0

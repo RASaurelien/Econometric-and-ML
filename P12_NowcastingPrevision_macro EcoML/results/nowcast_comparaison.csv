@@ -1,0 +1,6 @@
+modele,RMSE,RMSE relatif a l'AR,stat DM vs AR,p-value
+AR (BIC),0.7839,1.0,,
+Diffusion index,0.49661,0.634,-6.721,0.0
+Elastic net,0.511,0.652,-6.693,0.0
+LSTM,0.6143,0.784,-3.77,0.0
+Transformer,0.54941,0.701,-5.461,0.0

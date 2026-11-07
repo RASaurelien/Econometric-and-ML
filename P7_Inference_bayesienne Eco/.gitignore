@@ -1,0 +1,5 @@
+__pycache__/
+.pytest_cache/
+bayes/*.so
+rust/target/
+rust/Cargo.lock

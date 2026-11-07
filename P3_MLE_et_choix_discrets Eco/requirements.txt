@@ -1,0 +1,5 @@
+numpy
+scipy
+# seulement pour les tests de validation
+statsmodels
+pytest
