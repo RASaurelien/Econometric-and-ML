@@ -35,7 +35,7 @@ Notations : $i$ indexe les unités (individus, comtés, régions) et $t$ les dat
 - **Agrégations** : les ATT(g, t) sont nombreux, on les résume de quatre façons, avec des poids proportionnels à la taille des cohortes $P(G = g)$ :
   - **Simple** : moyenne pondérée de tous les $\text{ATT}(g, t)$ après traitement ($t \ge g$).
   - **Dynamique** : on regroupe selon le temps relatif $e = t - g$ depuis le traitement, $\theta(e) = \sum_g w_g \, \text{ATT}(g, g + e)$. L'**effet dynamique** global est la moyenne des $\theta(e)$ pour $e \ge 0$.
-  - **Par cohorte** : pour chaque $g$, $\theta(g) = \frac{1}{\#\{t \ge g\}} \sum_{t \ge g} \text{ATT}(g, t)$, puis moyenne pondérée entre cohortes.
+  - **Par cohorte** : pour chaque $g$, $\theta(g) = \frac{1}{\\#\{t \ge g\}} \sum_{t \ge g} \text{ATT}(g, t)$, puis moyenne pondérée entre cohortes.
   - **Par date** : pour chaque $t$, la moyenne des $\text{ATT}(g, t)$ des cohortes déjà traitées ($g \le t$), puis moyenne sur les dates.
 - **Étude d'événement** (*event study*) : graphique des $\theta(e)$ en fonction du temps relatif $e$. Les points avant le traitement ($e < 0$) doivent être proches de zéro (tendances parallèles), les points après montrent l'évolution de l'effet.
 - **DiD à effets fixes bi-directionnels** (TWFE) : régression classique avec un effet fixe par unité et par date,
